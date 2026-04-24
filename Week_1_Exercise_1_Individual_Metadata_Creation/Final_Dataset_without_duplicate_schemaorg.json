@@ -1,0 +1,369 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.13890887",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "10.5281/zenodo.13890887",
+      "url": "https://doi.org/10.5281/zenodo.13890887"
+    }
+  ],
+  "name": "Ransomware Dataset 2024",
+  "description": "Balanced tabular dataset of 21,752 Windows PE file samples (10,876 benign and 10,876 malicious) spanning 26 malware families including ransomware strains (WannaCry, Ryuk, REvil, LockBit, Cerber, Dharma, Gandcrab, …), RATs, trojans, and stealers. Each row captures DOS/PE header fields (MZ/PE magic, section counts, image sizes, entry point, subsystem, DLL characteristics), .text and .rdata section attributes, and sandbox-derived behavioral counters (registry read/write/delete, network DNS/HTTP/connections, process and file activity, DLL calls, API count). Target columns are Class (Benign/Malware), Category, and Family. Supports supervised learning for ransomware detection and multi-class malware family classification.",
+  "url": "https://doi.org/10.5281/zenodo.13890887",
+  "version": "1.0",
+  "datePublished": "2024",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "ransomware dataset",
+    "malware dataset",
+    "ransomware dataset 2024",
+    "malware dataset 2024",
+    "PE features",
+    "cybersecurity"
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Hussain, Amjad",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Air University"
+      }
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/"
+  },
+  "isAccessibleForFree": true,
+  "encodingFormat": "text/csv",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://doi.org/10.5281/zenodo.13890887",
+      "contentSize": "20677619 B",
+      "sha256": "dd8347389b98dc4ad9552353262079efab3c600148bcfa1d0c1f94186b27cb8e"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "md5"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "sha1"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "file_extension"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EntryPoint"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "PEType"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "MachineType"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "magic_number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "bytes_on_last_page"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "pages_in_file"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "relocations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "size_of_header"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "min_extra_paragraphs"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "max_extra_paragraphs"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "init_ss_value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "init_sp_value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "init_ip_value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "init_cs_value"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "over_lay_number"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "oem_identifier"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "address_of_ne_header"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Magic"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeOfCode"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeOfInitializedData"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeOfUninitializedData"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "AddressOfEntryPoint"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "BaseOfCode"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "BaseOfData"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ImageBase"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SectionAlignment"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FileAlignment"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "OperatingSystemVersion"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ImageVersion"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeOfImage"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeOfHeaders"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Checksum"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Subsystem"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "DllCharacteristics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeofStackReserve"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeofStackCommit"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeofHeapCommit"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SizeofHeapReserve"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "LoaderFlags"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text_VirtualSize"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text_VirtualAddress"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text_SizeOfRawData"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text_PointerToRawData"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text_PointerToRelocations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text_PointerToLineNumbers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "text_Characteristics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rdata_VirtualSize"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rdata_VirtualAddress"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rdata_SizeOfRawData"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rdata_PointerToRawData"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rdata_PointerToRelocations"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rdata_PointerToLineNumbers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rdata_Characteristics"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "registry_read"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "registry_write"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "registry_delete"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "registry_total"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "network_threats"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "network_dns"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "network_http"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "network_connections"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "processes_malicious"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "processes_suspicious"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "processes_monitored"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "total_procsses"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "files_malicious"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "files_suspicious"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "files_text"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "files_unknown"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "dlls_calls"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "apis"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Class"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Category"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Family"
+    }
+  ],
+  "size": {
+    "@type": "QuantitativeValue",
+    "unitText": "rows",
+    "value": 21752
+  }
+}

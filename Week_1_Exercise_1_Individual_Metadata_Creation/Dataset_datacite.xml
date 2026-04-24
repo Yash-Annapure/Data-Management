@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <identifier identifierType="DOI">10.5281/zenodo.13890887</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Hussain, Amjad</creatorName>
+      <familyName>Hussain</familyName>
+      <givenName>Amjad</givenName>
+      <affiliation>Air University</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title xml:lang="en">Ransomware Dataset 2024</title>
+  </titles>
+  <publisher>Zenodo</publisher>
+  <publicationYear>2024</publicationYear>
+  <subjects>
+    <subject>ransomware</subject>
+    <subject>malware detection</subject>
+    <subject>malware classification</subject>
+    <subject>PE file analysis</subject>
+    <subject>cybersecurity</subject>
+    <subject>machine learning</subject>
+    <subject>dynamic analysis</subject>
+    <subject>static analysis</subject>
+  </subjects>
+  <language>en</language>
+  <resourceType resourceTypeGeneral="Dataset">Tabular dataset (CSV)</resourceType>
+  <sizes>
+    <size>20677619 bytes</size>
+    <size>21752 rows</size>
+    <size>77 columns</size>
+  </sizes>
+  <formats>
+    <format>text/csv</format>
+  </formats>
+  <version>1.0</version>
+  <rightsList>
+    <rights rightsURI="https://creativecommons.org/licenses/by/4.0/" rightsIdentifier="CC-BY-4.0" rightsIdentifierScheme="SPDX">Creative Commons Attribution 4.0 International</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">Balanced tabular dataset of 21,752 Windows PE file samples (10,876 benign and 10,876 malicious) spanning 26 malware families including ransomware strains (WannaCry, Ryuk, REvil, LockBit, Cerber, Dharma, Gandcrab, …), RATs, trojans, and stealers. Each row captures DOS/PE header fields (MZ/PE magic, section counts, image sizes, entry point, subsystem, DLL characteristics), .text and .rdata section attributes, and sandbox-derived behavioral counters (registry read/write/delete, network DNS/HTTP/connections, process and file activity, DLL calls, API count). Target columns are Class (Benign/Malware), Category, and Family. Supports supervised learning for ransomware detection and multi-class malware family classification.</description>
+  </descriptions>
+</resource>
